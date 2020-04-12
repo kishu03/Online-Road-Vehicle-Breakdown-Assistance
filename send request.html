@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>Send request</title>
+<style>
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;  
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="container">
+    <h1>Send request</h1>
+    <p>Please fill in this form for calling an mechanic.</p>
+    <hr>
+
+  <form action="action_page.php">
+    <label for="fname"> Name </label>
+    <input type="text" id="fname" name="name" placeholder="Your name..">
+    <label for="mob"> Mobile Number </label>
+    <input type="text" id="mob" name="Mobile Number" placeholder="Your mobile number..">
+    <label for="state">State</label>
+    <select id="state" name="state">
+      <option value="punjab">Punjab</option>
+      <option value="haryana">Haryana</option>
+      <option value="tamilnadu">Tamil Nadu</option>
+      <option value="uk">Utrakhand</option>
+      <option value="up">Uttarpradesh</option>
+      <option value="bihar">Bihar</option>
+      <option value="mp">Madhya Pradesh</option>
+    </select>
+    <label for="address">Address</label>
+    <textarea id="address" name="address" placeholder="Enter your address with pin code..." ></textarea>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>

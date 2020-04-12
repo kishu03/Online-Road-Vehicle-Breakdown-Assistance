@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>On road car breakdown</title>
+<link rel="stylesheet" href="style.css">
+<style>
+body {
+margin: 0;
+margin-top: 50px;
+font-family: sans-serif;
+}
+
+header {
+display: flex;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+height: 50px;
+line-height: 50px;
+background-color: #eee;
+}
+
+header * {
+display: inline;
+height: 50px;
+}
+
+header ul {
+padding: 0;
+}
+
+header li {
+margin-left: 20px;
+}
+
+section {
+height: 100vh;
+border: 1px solid black;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+#hero .profile-img {
+border-radius: 4px;
+padding: 5px;
+width: 300px;
+height:400px;
+}
+
+footer {
+text-align: center;
+padding: 50px;
+}
+#hero h1 {
+font-size: 3em;
+}
+
+section h2 {
+font-size: 2.5em;
+}
+
+section h3 {
+font-size: 1.5em;
+}
+
+header a {
+text-decoration: none;
+color: black;
+}
+.button{
+background-color: #4CAF50;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}
+body
+{
+background-color: #cccccc;
+background-image:url(" ");
+}
+</style>
+</head>
+<body>
+<header>
+<img src="b.jfif" class="profile-img">
+<nav>
+<ul>
+<li><a href="User Login.html">User Login</a></li>
+<li><a href="user_signup.html">User Signup</a></li>
+<li><a href="mechanic login.html">Mechanic Login </a></li>
+<li><a href="hotel_signup.html">Mechanic Signup</a></li>
+<li><a href="view user.html">Users Description</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<section id="hero">
+<div id="book">
+<h1>User Signup</h1>
+	<div id="a1">
+    <p>&nbsp;</p>
+    
+    <form action="book.php" method="post">
+		 <label for="name">Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    			<input id="name" name="name" placeholder="Full Name" required="" tabindex="1" type="text"><br><br>
+		
+		<label for="email">Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    			<input id="email" name="email" placeholder="Email" required="" type="email"><br><br>
+		
+		<label for="mobile">Mobile No:</label> &nbsp;
+            		<input id="phone" name="mobile" placeholder="Number" required="" type="text"> <br><br>
+		
+		<div style="position:relative;height:80px;">
+		
+		<label for="in">Date Of Birth:</label> 
+            		<input id="calendar3" name="in" placeholder="2015-06-02" required="" type="text"> <br><br>
+		
+		<label for="out">Password:</label> &nbsp;&nbsp;
+            		<input id="calendar4" type="text"> <br><br>
+		
+		</div>
+		Gender:
+			<select name="grnder">
+				<option value=''m">Male</option>
+				<option value="f">Female</option>
+			</select>
+			
+		<br/><br/><br/>
+<a href="payment.html"><input type="submit" name="Submit" value="Submit"/></a>
+<input type="reset" name="reset" value="Reset" />
+</form>
+    </div><!--a1-->
+<footer>
+<h1><button class="button" onclick="window.location.href = 'firstpage.html';">Home</button></h1>
+</footer> </body></html>
+
